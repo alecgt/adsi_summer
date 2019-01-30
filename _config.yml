@@ -1,8 +1,8 @@
 # Site settings
 title: ADSI Summer on Foundations of Data Science
 email: arokem@uw.edu
-baseurl: /~alecgt  # the subpath of your site, e.g. /blog
-url:  www.stat.washington.edu
+baseurl:  # the subpath of your site, e.g. /blog
+url:  https://alecgt.github.io/
 description: "A summer school on data science at the University of Washington"
 
 # Color settings (hex-codes without the leading hash-tag)
