@@ -138,7 +138,7 @@ a:focus {
     padding: 100px 0;
     text-align: center;
     color: #fff;
-    background: url(/img/rainier.jpg) no-repeat center center scroll;
+    background: url(img/rainier.jpg) no-repeat center center scroll;
     background-color: {{ site.color.primary-dark }};
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -252,6 +252,19 @@ a:focus {
     padding-top: 100px;
 }
 
+.dates-section {
+    width: 100%;
+    height: 500px;
+    padding-top: 300px;
+    background: url(img/quad.jpg) no-repeat center center scroll;
+}
+
+.contact-section {
+    width: 100%;
+    height: 500px;
+    background: url(img/library.jpg) no-repeat center center scroll;
+}
+
 .download-section {
     width: 100%;
     height: 500px;
@@ -292,6 +305,14 @@ a:focus {
 @media(min-width:767px) {
     .content-section {
         padding-top: 200px;
+    }
+
+    .dates-section {
+        padding-top: 195px;
+    }
+
+    .contact-section {
+        padding-top: 195px;
     }
 
     .download-section {
@@ -410,6 +431,8 @@ td.thumb {
 }
 
 .thumb img {
-    max-height: 160px;
-    max-width: 160px;
+    /*max-height: 160px; changed to make thumbnails a uniform size
+    max-width: 160px;*/
+    height: 160px;
+    width: 160px;
 }
