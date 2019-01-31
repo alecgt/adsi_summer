@@ -257,12 +257,16 @@ a:focus {
     height: 500px;
     padding-top: 300px;
     background: url(img/quad.jpg) no-repeat center center scroll;
+    /* Image is public domain, obtained from this album:
+       https://www.flickr.com/photos/135553449@N08/albums/72157678763283304 */
 }
 
 .contact-section {
     width: 100%;
     height: 500px;
     background: url(img/library.jpg) no-repeat center center scroll;
+    /* Image is public domain, obtained from this album:
+       https://www.flickr.com/photos/135553449@N08/albums/72157678763283304 */
 }
 
 .download-section {
@@ -293,7 +297,7 @@ a:focus {
 .instructor-section {
     height: auto;
     font-size: 18px;
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 #map {
@@ -304,7 +308,8 @@ a:focus {
 
 @media(min-width:767px) {
     .content-section {
-        padding-top: 200px;
+        padding-top: 100px;
+        padding-bottom: 50px
     }
 
     .dates-section {
